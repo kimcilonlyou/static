@@ -3,6 +3,7 @@ FileETag None
 Header unset ETag
 Header set Access-Control-Allow-Origin "*"
 Header set Access-Control-Allow-Credentials true
+Cache-Control: max-age=31536000
 <IfModule mod_headers.c>
     Header set Pragma public
     Header set Vary "Accept-Encoding"
